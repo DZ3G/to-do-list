@@ -10,7 +10,7 @@ Ce projet est fait pour apprendre les bases du développement web : HTML, CSS et
 
 ## Comment utiliser?
 
-1. Ouvrez le fichier `index-simple.html` dans votre navigateur
+1. Ouvrez le fichier `index.html` dans votre navigateur
 2. Tapez une tâche et cliquez "Ajouter" (ou appuyez sur Entrée)
 3. Cliquez "Terminer" pour cocher une tâche
 4. Cliquez "Supprimer" pour enlever une tâche
@@ -21,13 +21,13 @@ Les tâches se sauvegardent automatiquement. Vous pouvez fermer le navigateur et
 
 ## Fichiers du projet
 
-### `index-simple.html`
+### `index.html`
 Contient la structure de la page (titre, boutons, liste).
 
-### `style-simple.css`
+### `style-.css`
 Contient le design et les couleurs de la page.
 
-### `script-simple.js`
+### `script.js`
 Contient le code JavaScript qui fait fonctionner l'app (ajouter, supprimer, sauvegarder).
 
 ---
@@ -84,9 +84,9 @@ Le code est simple et facile à maintenir, parfait pour apprendre les bases du w
 
 ```
 📁 Mon Projet
-  ├─ index-simple.html
-  ├─ style-simple.css
-  └─ script-simple.js
+  ├─ index.html
+  ├─ style.css
+  └─ script.js
 ```
 
 **Important :** Mettre les 3 fichiers dans le même dossier!
