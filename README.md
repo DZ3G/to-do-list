@@ -50,34 +50,7 @@ Contient le code JavaScript qui fait fonctionner l'app (ajouter, supprimer, sauv
 - Fonctions pour ajouter, supprimer, terminer
 - `addEventListener` : Écouter les clics
 - `localStorage` : Sauvegarder les données
-
----
-
-## Améliorations possibles
-
-- Ajouter un bouton pour éditer une tâche
-- Ajouter un mode sombre
-- Ajouter des catégories (travail, école, maison)
-- Ajouter un système de priorité
-- Ajouter des dates deadline
-
----
-
-## Comment expliquer ce projet en entretien
-
-**"J'ai créé une application simple pour gérer des tâches. L'utilisateur peut :**
-- **Ajouter** une tâche en écrivant et en cliquant sur Ajouter
-- **Supprimer** une tâche quand elle n'est plus utile
-- **Marquer comme terminée** une tâche quand elle est complétée
-
-**Techniquement :**
-- **HTML** crée la structure (les champs et les boutons)
-- **CSS** ajoute le design et les couleurs
-- **JavaScript** gère les interactions (quand on clique, ajouter une tâche)
-- **localStorage** sauvegarde les tâches pour qu'elles persistent même après fermeture
-
-Le code est simple et facile à maintenir, parfait pour apprendre les bases du web!"**
-
+- 
 ---
 
 ## Fichiers nécessaires
