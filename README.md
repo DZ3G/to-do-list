@@ -96,5 +96,20 @@ Le code est simple et facile à maintenir, parfait pour apprendre les bases du w
 **Important :** Mettre les 3 fichiers dans le même dossier!
 
 ---
+## 📚 Ressources utilisées
+
+Ce projet a été réalisé en utilisant des ressources d'apprentissage pour comprendre les bases du développement web :
+
+- HTML Basics — W3Schools  
+  https://www.w3schools.com/Html/html_basic.asp  
+
+- JavaScript Reference — W3Schools  
+  https://www.w3schools.com/jsref/default.asp  
+
+- Cours HTML and CSS pour débutants (YouTube playlist)  
+  https://www.youtube.com/playlist?list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU  
+
+- JavaScript Crash Course (débutant)  
+  https://www.youtube.com/watch?v=PkZNo7MFNFg  
 
 **Créé par un étudiant STI2D SIN en apprentissage** 📚
