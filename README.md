@@ -50,7 +50,7 @@ Contient le code JavaScript qui fait fonctionner l'app (ajouter, supprimer, sauv
 - Fonctions pour ajouter, supprimer, terminer
 - `addEventListener` : Écouter les clics
 - `localStorage` : Sauvegarder les données
-- 
+  
 ---
 
 ## Fichiers nécessaires
