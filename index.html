@@ -1,15 +1,92 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-widthm initial-scale=1">
-        <title>To-do List App</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="todo-app">
-                <h2>what will we do today?  </h2>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tasks - Gestionnaire de Tâches Moderne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- En-tête avec titre et bouton mode sombre -->
+        <header class="header">
+            <div class="header-content">
+                <div class="title-section">
+                    <h1 class="title">📝 My Tasks</h1>
+                    <p class="subtitle">Gérez vos tâches de manière efficace</p>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Basculer le mode sombre">
+                    🌙
+                </button>
             </div>
-        </div>
-    </body>
+        </header>
+
+        <!-- Section principale -->
+        <main class="main-content">
+            <!-- Formulaire d'ajout de tâche -->
+            <div class="input-section">
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="taskInput" 
+                        class="task-input" 
+                        placeholder="Ajouter une nouvelle tâche..."
+                        aria-label="Champ de saisie pour nouvelle tâche"
+                    >
+                    <button class="btn-add" id="addBtn" aria-label="Ajouter une tâche">
+                        <span class="btn-text">Ajouter</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Filtres -->
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">
+                    Toutes
+                </button>
+                <button class="filter-btn" data-filter="active">
+                    En cours
+                </button>
+                <button class="filter-btn" data-filter="completed">
+                    Terminées
+                </button>
+            </div>
+
+            <!-- Compteur de tâches -->
+            <div class="stats">
+                <p class="task-count">
+                    <span id="taskCount">0</span> tâche(s) restante(s)
+                </p>
+            </div>
+
+            <!-- Liste des tâches -->
+            <div class="tasks-container">
+                <ul class="tasks-list" id="tasksList">
+                    <!-- Les tâches seront ajoutées ici dynamiquement -->
+                </ul>
+                
+                <!-- Message vide -->
+                <div class="empty-state" id="emptyState">
+                    <div class="empty-icon">✨</div>
+                    <p class="empty-text">Aucune tâche pour le moment</p>
+                    <p class="empty-subtext">Commencez par ajouter une nouvelle tâche!</p>
+                </div>
+            </div>
+
+            <!-- Bouton de suppression complète (visible si tâches terminées) -->
+            <div class="actions-bottom">
+                <button class="btn-clear" id="clearCompleted" style="display: none;">
+                    Supprimer les tâches terminées
+                </button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Créé avec 💚 | Les tâches sont sauvegardées localement</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
