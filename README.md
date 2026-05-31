@@ -1,88 +1,81 @@
-# Ma Liste de Tâches - Projet Simple STI2D SIN
+# To-Do List App
 
 ![Todo App Demo](assets/demo.gif)
 
-## C'est quoi?
+## What is this?
 
-Une application web simple pour gérer une liste de tâches. Vous pouvez ajouter, supprimer et marquer des tâches comme terminées. Tout se sauvegarde automatiquement sur votre ordinateur.
+A simple web app to manage a to-do list. You can add tasks, delete them, and mark them as done. Everything saves automatically to your browser so nothing gets lost when you close the tab.
 
-Ce projet est fait pour apprendre les bases du développement web : HTML, CSS et JavaScript simple.
-
----
-
-## Comment utiliser?
-
-1. Ouvrez le fichier `index.html` dans votre navigateur
-2. Tapez une tâche et cliquez "Ajouter" (ou appuyez sur Entrée)
-3. Cliquez "Terminer" pour cocher une tâche
-4. Cliquez "Supprimer" pour enlever une tâche
-
-Les tâches se sauvegardent automatiquement. Vous pouvez fermer le navigateur et les retrouver plus tard!
+Built as a first web project to learn the basics of HTML, CSS, and JavaScript.
 
 ---
 
-## Fichiers du projet
+## How to use it
+
+1. Open `index.html` in your browser
+2. Type a task and click "Add" (or just press Enter)
+3. Click "Done" to check off a task
+4. Click "Delete" to remove it
+
+That's it. Your tasks are still there when you come back.
+
+---
+
+## Project files
 
 ### `index.html`
-Contient la structure de la page (titre, boutons, liste).
+The structure of the page — the title, input field, button, and the task list itself.
 
-### `style-.css`
-Contient le design et les couleurs de la page.
+### `style.css`
+All the styling. Colors, layout, making it work on mobile.
 
 ### `script.js`
-Contient le code JavaScript qui fait fonctionner l'app (ajouter, supprimer, sauvegarder).
+The JavaScript that makes everything actually work — adding tasks, deleting them, saving them.
 
 ---
 
-## Concepts utilisés
+## What I used to build it
 
-### 1. **HTML** (Structure)
-- `<input>` : Champ de texte pour entrer une tâche
-- `<button>` : Bouton pour ajouter
-- `<ul>` et `<li>` : Liste des tâches
-- `id` : Pour trouver les éléments en JavaScript
+### HTML — Structure
+- `<input>` for typing a task
+- `<button>` to submit it
+- `<ul>` and `<li>` to display the list
+- `id` attributes so JavaScript can find the right elements
 
-### 2. **CSS** (Design)
-- Couleurs simples (vert, bleu, rouge)
-- Flexbox pour aligner les éléments
-- Responsive : l'app fonctionne sur mobile aussi
+### CSS — Design
+- Simple color scheme (green for done, red for delete, blue for add)
+- Flexbox to align everything cleanly
+- Responsive layout so it works on phone too
 
-### 3. **JavaScript** (Fonctionnalité)
-- Variables pour stocker les tâches
-- Fonctions pour ajouter, supprimer, terminer
-- `addEventListener` : Écouter les clics
-- `localStorage` : Sauvegarder les données
-  
+### JavaScript — Logic
+- Functions for adding, deleting, and completing tasks
+- `addEventListener` to react to button clicks and Enter key presses
+- `localStorage` to save tasks in the browser so they persist between sessions
+
 ---
 
-## Structure du Fichiers 
+## File structure
 
 ```
-📁 Mon Projet
+📁 Project
   ├─ index.html
   ├─ style.css
   ├─ script.js
-  └─ 📁 Assets 
+  └─ 📁 assets
       └─ demo.gif
 ```
 
-**Important :** Mettre les 3 fichiers dans le même dossier!
+All 3 files need to be in the same folder or the CSS and JS won't load.
 
 ---
-## 📚 Ressources utilisées
 
-Ce projet a été réalisé en utilisant des ressources d'apprentissage pour comprendre les bases du développement web :
+## Resources I used
 
-- HTML Basics — W3Schools  
-  https://www.w3schools.com/Html/html_basic.asp  
+- HTML Basics — W3Schools: https://www.w3schools.com/Html/html_basic.asp
+- JavaScript Reference — W3Schools: https://www.w3schools.com/jsref/default.asp
+- HTML and CSS for Beginners (YouTube): https://www.youtube.com/playlist?list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU
+- JavaScript Crash Course (beginner): https://www.youtube.com/watch?v=PkZNo7MFNFg
 
-- JavaScript Reference — W3Schools  
-  https://www.w3schools.com/jsref/default.asp  
+---
 
-- Cours HTML and CSS pour débutants (YouTube playlist)  
-  https://www.youtube.com/playlist?list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU  
-
-- JavaScript Crash Course (débutant)  
-  https://www.youtube.com/watch?v=PkZNo7MFNFg  
-
-**Créé par un étudiant STI2D SIN en apprentissage** 📚
+*First web project — built to learn HTML, CSS, and JavaScript from scratch.*
